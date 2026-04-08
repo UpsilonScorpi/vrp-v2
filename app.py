@@ -5,7 +5,7 @@ class MiniWeb(QtWidgets.QWidget):
     def __init__(self, url, cookie_name, cookie_value, domain, path="/"):
         super().__init__()
         self.setWindowTitle("VRP - v2")
-        self.setWindowIcon(QtGui.QIcon("scorpion.png"))
+        self.setWindowIcon(QtGui.QIcon("logo.png"))
         self.setWindowFlags(
             self.windowFlags() |
             QtCore.Qt.Window |
